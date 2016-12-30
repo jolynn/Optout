@@ -3,3 +3,9 @@
 This respository holds the iPython Notebooks that I wrote for the OptOut project. 
 
 In this project in collaboration with Professor Alexandra Killewald, we identify common patterns of maternal employment of American mothers in the first 18 years of maternity and examine which demographic, economic, and cultural factors are associated with each maternal employment pattern. 
+
+1sample_selection.ipynb - shows how we select the analytical sample
+2seq_construct.ipynb - how monthly employment sequences within 18 years after first maternity are constructed
+3construct_iv.ipynb - how independent variables are constructed
+4fertility_seq.ipynb - how fertility sequences (multiple births) are constructed
+occ_traits.ipynb - how occupational traits are derived, using IPUMS 1980-2009 datasets
