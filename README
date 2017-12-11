@@ -1,11 +1,19 @@
 # OptOut
+# 12/11/2017
 
-This respository holds the iPython Notebooks that I wrote for the OptOut project. 
+This respository holds the Python scripts that I wrote to create datasets for the OptOut project. This project is in collaboration with Professor Alexandra Killewald, in which we use sequence analysis (specifically optimal matching) and multinomial logit regression to identify common patterns of maternal employment of American mothers and key pre-birth characteristics associated with each pattern. 
 
-In this project in collaboration with Professor Alexandra Killewald, we identify common patterns of maternal employment of American mothers in the first 18 years of maternity and examine which demographic, economic, and cultural factors are associated with each maternal employment pattern. 
 
-1sample_selection.ipynb - shows how we select the analytical sample
-2seq_construct.ipynb - how monthly employment sequences within 18 years after first maternity are constructed
-3construct_iv.ipynb - how independent variables are constructed
-4fertility_seq.ipynb - how fertility sequences (multiple births) are constructed
-occ_traits.ipynb - how occupational traits are derived, using IPUMS 1980-2009 datasets
+File descriptions:
+
+1sample_selection.ipynb - construct extended (18-year-seq) sample and 14-year-seq sample (the former is a subset of the latter)
+2seq_construction.ipynb - construct 18-year-long monthly employment status sequences for extended sample
+2seq_construction_seq14.ipynb - construct 14-year-long monthly employment status sequences for 14-year-seq sample
+3IV_construction.ipynb - construct pre-1979 independent variables for extended sample
+3IV_construction_seq14.ipynb - construct pre-1979 independent variables for 14-year-seq sample
+3IV_construction_subsample.ipynb - construct independent variables for post-1979 sample, married sample, and work sample within extended sample
+3IV_construction_subsample_seq14.ipynb - construct independent variables for post-1979 sample, married sample, and work sample within 14-year-seq sample
+4childbirth_seq.ipynb - construct monthly sequences to show cumulative number of children in each month (for online supplement)
+
+
+If you have any questions, please contact me at xiaolinzhuo at fas.harvard.edu
