@@ -1,5 +1,5 @@
 # OptOut
-# 12/11/2017
+# 6/25/2018
 
 This respository holds the Python scripts that I wrote to create datasets for the OptOut project. This project is in collaboration with Professor Alexandra Killewald, in which we use sequence analysis (specifically optimal matching) and multinomial logit regression to identify common patterns of maternal employment of American mothers and key pre-birth characteristics associated with each pattern. 
 
@@ -14,6 +14,7 @@ File descriptions:
 3IV_construction_subsample.ipynb - construct independent variables for post-1979 sample, married sample, and work sample within extended sample
 3IV_construction_subsample_seq14.ipynb - construct independent variables for post-1979 sample, married sample, and work sample within 14-year-seq sample
 4childbirth_seq.ipynb - construct monthly sequences to show cumulative number of children in each month (for online supplement)
+5age_seq.ipynb - construct monthly sequences between age 20-40 for mothers (in extended sample) and for childless women
 
 
 If you have any questions, please contact me at xiaolinzhuo at fas.harvard.edu
