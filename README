@@ -16,5 +16,9 @@ File descriptions:
 4childbirth_seq.ipynb - construct monthly sequences to show cumulative number of children in each month (for online supplement)
 5age_seq.ipynb - construct monthly sequences between age 20-40 for mothers (in extended sample) and for childless women
 
+Sequence analysis codes are in the R files: one for main output and one for online supplement. 
+
+Regression analysis codes are in the Stata files. replication_package.do calls the other do files and runs all regression analysis. 
+
 
 If you have any questions, please contact me at xiaolinzhuo at fas.harvard.edu
